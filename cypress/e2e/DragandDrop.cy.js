@@ -18,7 +18,7 @@ describe("Drag and Drop", () => {
 });
 
 it('Drag and Drop function on original', () => {
-    cy.get("//img[@id='mongo']").trigger('dragstart')
+    cy.get('#mongo').trigger('dragstart')
     cy.get('#droparea').trigger("drop").trigger("dragend")
 });
 

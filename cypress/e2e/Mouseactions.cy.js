@@ -9,8 +9,8 @@ describe('DemoAutomation Website', () => {
         //cy.viewport(1920,1280);
         cy.visit('https://demoqa.com/buttons')
     })
-
     
+
     it.only('MouseActions Function', () =>{
         cy.get('#doubleClickBtn').dblclick().should('be.visible')  //double click
         cy.get('#rightClickBtn').rightclick().should('be.visible')  //right click

@@ -31,7 +31,7 @@ describe('DemoAutomation Website', () => {
     })
 
     //Confirm type Alert function
-
+  
     cy.get("a[href*='#CancelTab']").click()
     cy.get("[onclick='confirmbox()']").click()
     //  Implementation Alert text verification
